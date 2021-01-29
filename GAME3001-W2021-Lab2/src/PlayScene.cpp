@@ -32,6 +32,7 @@ void PlayScene::update()
 	updateDisplayList();
 
 	CollisionManager::AABBCheck(m_pSpaceShip, m_pObstacle);
+	CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position,m_pSpaceShip->getTransform()->position +m_pSpaceShip->getOrientation()*60.0f,);
 }
 
 void PlayScene::clean()
