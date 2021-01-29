@@ -32,7 +32,12 @@ void PlayScene::update()
 	updateDisplayList();
 
 	CollisionManager::AABBCheck(m_pSpaceShip, m_pObstacle);
-	CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position,m_pSpaceShip->getTransform()->position +m_pSpaceShip->getOrientation()*60.0f,);
+	if(CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position,m_pSpaceShip->getTransform()->position + m_pSpaceShip->getOrientation()*60.0f,
+		m_pObstacle->getTransform()->position - glm::vec2(m_pObstacle->getHeight()*0.5,m_pObstacle->getWidth()*0.5),m_pObstacle->getWidth(),m_pObstacle->getHeight()));
+	{
+		std::cout << "Collision with Line!" << std::endl;
+		
+	}
 }
 
 void PlayScene::clean()
