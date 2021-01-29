@@ -142,7 +142,6 @@ bool CollisionManager::lineRectCheck(const glm::vec2 line1_start, const glm::vec
 	// if ANY of the above are true, the line
 	// has hit the rectangle
 	if (left || right || top || bottom) {
-		
 		return true;
 	}
 

@@ -79,24 +79,7 @@ void SpaceShip::setAccelerationRate(const float rate)
 	m_accelerationRate = rate;
 }
 
-void SpaceShip::turnLeft()
-{
-	m_rotationAngle += m_turnRate;
-	if (m_rotationAngle >= 360)
-	{
-		m_rotationAngle -= 360.0f;
-	}
-	changeDirection();
-}
 
-void SpaceShip::changeDirection()
-{
-	const auto x = cos(m_rotationAngle * Util::Deg2Rad);
-	const auto y = sin(m_rotationAngle * Util::Deg2Rad);
-	m_orientation = glm::vec2(x, y);
-
-	glm::vec2 size = TextureManager::Instance()->getTextureSize("spaceship");
-}
 
 void SpaceShip::setOrientation(const glm::vec2 orientation)
 {
@@ -157,4 +140,22 @@ void SpaceShip::m_Move()
 	getRigidBody()->velocity = Util::clamp(getRigidBody()->velocity, m_maxSpeed);
 
 	getTransform()->position += getRigidBody()->velocity;
+}
+void SpaceShip::turnLeft()
+{
+	m_rotationAngle += m_turnRate;
+	if (m_rotationAngle >= 360)
+	{
+		m_rotationAngle -= 360.0f;
+	}
+	changeDirection();
+}
+
+void SpaceShip::changeDirection()
+{
+	const auto x = cos(m_rotationAngle * Util::Deg2Rad);
+	const auto y = sin(m_rotationAngle * Util::Deg2Rad);
+	m_orientation = glm::vec2(x, y);
+
+	glm::vec2 size = TextureManager::Instance()->getTextureSize("spaceship");
 }
