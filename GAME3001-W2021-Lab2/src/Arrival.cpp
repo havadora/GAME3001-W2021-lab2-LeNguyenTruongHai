@@ -29,7 +29,7 @@ void Arrival::draw()
 void Arrival::update()
 {
 	updateDisplayList();
-
+	m_pSpaceShip->m_ArrivalMove();
 
 }
 
@@ -40,7 +40,7 @@ void Arrival::clean()
 
 void Arrival::handleEvents()
 {
-	m_pSpaceShip->m_ArrivalMove();
+	EventManager::Instance().update();
 	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_ESCAPE))
 	{
 		TheGame::Instance()->quit();
