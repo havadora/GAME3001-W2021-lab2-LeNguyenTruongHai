@@ -60,9 +60,9 @@ void Blanking::start()
 {
 	const SDL_Color blue = { 0, 0, 255, 255 };
 	const SDL_Color red = { 0, 0, 100, 100 };
-	m_pStartLabel = new Label("LeNguyenTruongHai", "Consolas", 80, blue, glm::vec2(400.0f, 40.0f));
-	m_pStartLabel->setParent(this);
-	addChild(m_pStartLabel);
+	m_pAvoid = new Label("Press 1: Avoidence", "Consolas", 20, blue, glm::vec2(10.0f, 40.0f));
+	m_pAvoid->setParent(this);
+	addChild(m_pAvoid);
 
 	m_pStudentID = new Label("101268689", "Consolas", 60, red, glm::vec2(400.0f, 120.0f));
 	m_pStudentID->setParent(this);

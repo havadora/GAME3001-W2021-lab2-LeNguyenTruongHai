@@ -21,7 +21,7 @@ public:
 	virtual void start() override;
 
 private:
-	Label* m_pStartLabel{};
+	Label* m_pAvoid{};
 	Label* m_pInstructionsLabel{};
 	Label* m_pStudentID{};
 	Ship* m_pShip{};
