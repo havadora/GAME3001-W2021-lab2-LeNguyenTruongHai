@@ -36,7 +36,7 @@ void PlayScene::update()
 		m_pObstacle->getTransform()->position - glm::vec2(m_pObstacle->getWidth() * 0.5, m_pObstacle->getHeight() * 0.5), m_pObstacle->getWidth(), m_pObstacle->getHeight()))
 	{
 		std::cout << "Collision with Line!" << std::endl;
-		m_pSpaceShip->changeDirection();
+		m_pSpaceShip->turnLeft();
 	}
 	
 	
