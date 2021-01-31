@@ -93,7 +93,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;FREEGLUT_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(SolutionDir)include\;$(SolutionDir)include\GLM\;$(SolutionDir)include\SDL\include\;$(SolutionDir)include\SDL_Image\include\;$(SolutionDir)include\SDL_Mixer\include\;$(SolutionDir)include\SDL2_ttf\include\;$(SolutionDir)include\SDL_net\include\;$(SolutionDir)include\IMGUI_SDL\;$(SolutionDir)include\IMGUI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src;$(SolutionDir)include\GLM\;$(SolutionDir)include\SDL\include\;$(SolutionDir)include\SDL_Image\include\;$(SolutionDir)include\SDL_Mixer\include\;$(SolutionDir)include\SDL2_ttf\include\;$(SolutionDir)include\SDL_net\include\;$(SolutionDir)include\IMGUI_SDL\;$(SolutionDir)include\IMGUI\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -161,6 +161,7 @@
     <ClCompile Include="..\include\IMGUI\imgui_draw.cpp" />
     <ClCompile Include="..\include\IMGUI\imgui_widgets.cpp" />
     <ClCompile Include="..\include\IMGUI_SDL\imgui_sdl.cpp" />
+    <ClCompile Include="..\src\Arrival.cpp" />
     <ClCompile Include="..\src\Button.cpp" />
     <ClCompile Include="..\src\CollisionManager.cpp" />
     <ClCompile Include="..\src\Obstacle.cpp" />
@@ -170,7 +171,9 @@
     <ClCompile Include="..\src\DisplayObject.cpp" />
     <ClCompile Include="..\src\EndScene.cpp" />
     <ClCompile Include="..\src\FontManager.cpp" />
-    <ClCompile Include="..\src\Game.cpp" />
+    <ClCompile Include="..\src\Game.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\src\GameController.cpp" />
     <ClCompile Include="..\src\GameObject.cpp" />
     <ClCompile Include="..\src\Label.cpp" />
@@ -198,6 +201,7 @@
     <ClInclude Include="..\include\IMGUI\imstb_truetype.h" />
     <ClInclude Include="..\include\IMGUI_SDL\imgui_sdl.h" />
     <ClInclude Include="..\src\Animation.h" />
+    <ClInclude Include="..\src\Arrival.h" />
     <ClInclude Include="..\src\Button.h" />
     <ClInclude Include="..\src\CollisionManager.h" />
     <ClInclude Include="..\src\CollisionShape.h" />
@@ -236,6 +240,7 @@
     <ClInclude Include="..\src\TextureManager.h" />
     <ClInclude Include="..\src\Transform.h" />
     <ClInclude Include="..\src\Util.h" />
+    <ClInclude Include="Seeking.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />

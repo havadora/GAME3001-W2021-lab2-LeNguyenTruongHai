@@ -1,5 +1,5 @@
 #include "SpaceShip.h"
-
+#include "EventManager.h"
 
 #include "Game.h"
 #include "Util.h"
@@ -17,10 +17,10 @@ SpaceShip::SpaceShip()
 	getRigidBody()->acceleration = glm::vec2(0.0f, 0.0f);
 	getRigidBody()->isColliding = false;
 	setType(SPACE_SHIP);
-	setMaxSpeed(10.0f);
+	setMaxSpeed(5.0f);
 	setOrientation(glm::vec2(0.0f, -1.0f));
 	setRotation(0.0f);
-	setAccelerationRate(10.0f);
+	setAccelerationRate(5.0f);
 	setTurnRate(10.0f);
 }
 
@@ -32,12 +32,13 @@ void SpaceShip::draw()
 	TextureManager::Instance()->draw("spaceship", 
 		getTransform()->position.x, getTransform()->position.y, m_rotationAngle, 255, true);
 
-	Util::DrawLine(getTransform()->position, (getTransform()->position + getOrientation() * 60.0f) );
+	Util::DrawLine(getTransform()->position, (getTransform()->position + getOrientation() * 100.0f) );
 }
 
 void SpaceShip::update()
 {
-	m_Move();
+		
+		m_Move();
 }
 
 void SpaceShip::clean()
@@ -138,6 +139,17 @@ void SpaceShip::m_Move()
 		0.5f * getRigidBody()->acceleration * (deltaTime);
 
 	getRigidBody()->velocity = Util::clamp(getRigidBody()->velocity, m_maxSpeed);
+
+	getTransform()->position += getRigidBody()->velocity;
+}
+void SpaceShip::m_ArrivalMove()
+{
+	m_targetDirection = m_destination - getTransform()->position;
+
+	// normalized direction
+	m_targetDirection = Util::normalize(m_targetDirection);
+
+	getRigidBody()->velocity = m_targetDirection * m_maxSpeed;
 
 	getTransform()->position += getRigidBody()->velocity;
 }

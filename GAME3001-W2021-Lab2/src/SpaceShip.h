@@ -43,6 +43,8 @@ private:
 
 	// private function
 	void m_Move();
+	void m_ArrivalMove();
+	friend class Arrival;
 };
 
 #endif /* defined (__SPACE_SHIP__) */

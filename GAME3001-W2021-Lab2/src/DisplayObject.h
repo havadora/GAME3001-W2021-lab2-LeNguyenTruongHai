@@ -14,6 +14,7 @@ public:
 	// Inherited via GameObject
 	virtual void draw() override = 0;
 	virtual void update() override = 0;
+
 	virtual void clean() override = 0;
 
 	Scene* getParent() const;

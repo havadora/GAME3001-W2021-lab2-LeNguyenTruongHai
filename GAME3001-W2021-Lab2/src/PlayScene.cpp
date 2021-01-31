@@ -32,7 +32,7 @@ void PlayScene::update()
 	updateDisplayList();
 
 	CollisionManager::AABBCheck(m_pSpaceShip, m_pObstacle);
-	if (CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position, m_pSpaceShip->getTransform()->position + m_pSpaceShip->getOrientation() * 60.0f,
+	if (CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position, m_pSpaceShip->getTransform()->position + m_pSpaceShip->getOrientation() * 100.0f,
 		m_pObstacle->getTransform()->position - glm::vec2(m_pObstacle->getWidth() * 0.5, m_pObstacle->getHeight() * 0.5), m_pObstacle->getWidth(), m_pObstacle->getHeight()))
 	{
 		std::cout << "Collision with Line!" << std::endl;
@@ -73,7 +73,7 @@ void PlayScene::start()
 	m_guiTitle = "Play Scene";
 
 	m_pTarget = new Target();
-	m_pTarget->getTransform()->position = glm::vec2(700.0f, 300.0f);
+	m_pTarget->getTransform()->position = glm::vec2(700.0f, 600.0f);
 	addChild(m_pTarget);
 
 	m_pObstacle = new Obstacle();
@@ -82,8 +82,8 @@ void PlayScene::start()
 
 	// instantiating spaceship
 	m_pSpaceShip = new SpaceShip();
-	m_pSpaceShip->getTransform()->position = glm::vec2(100.0f, 300.0f);
-	m_pSpaceShip->setEnabled(false);
+	m_pSpaceShip->getTransform()->position = glm::vec2(100.0f,100.0f);
+	m_pSpaceShip->setEnabled(true);
 	m_pSpaceShip->setDestination(m_pTarget->getTransform()->position);
 	addChild(m_pSpaceShip);
 }

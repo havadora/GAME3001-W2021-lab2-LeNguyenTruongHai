@@ -129,6 +129,9 @@
     <ClCompile Include="..\src\Obstacle.cpp">
       <Filter>Game Objects</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Arrival.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\StartScene.h">
@@ -268,6 +271,12 @@
     </ClInclude>
     <ClInclude Include="..\src\Obstacle.h">
       <Filter>Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Seeking.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Arrival.h">
+      <Filter>Scenes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

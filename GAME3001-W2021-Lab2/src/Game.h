@@ -17,7 +17,7 @@
 #include "StartScene.h"
 #include "PlayScene.h"
 #include "EndScene.h"
-
+#include "Arrival.h"
 #include "Config.h"
 
 class Game
