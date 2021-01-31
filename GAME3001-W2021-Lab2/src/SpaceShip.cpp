@@ -37,7 +37,7 @@ void SpaceShip::draw()
 
 void SpaceShip::update()
 {
-		
+
 		m_Move();
 }
 
