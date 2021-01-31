@@ -1,4 +1,4 @@
-#include "PlayScene.h"
+#include "Fleeing.h"
 #include "Game.h"
 #include "EventManager.h"
 
@@ -8,46 +8,36 @@
 #include "Renderer.h"
 #include "Util.h"
 
-PlayScene::PlayScene()
+Fleeing::Fleeing()
 {
-	PlayScene::start();
+	Fleeing::start();
 }
 
-PlayScene::~PlayScene()
+Fleeing::~Fleeing()
 = default;
 
-void PlayScene::draw()
+void Fleeing::draw()
 {
-	if(EventManager::Instance().isIMGUIActive())
+	if (EventManager::Instance().isIMGUIActive())
 	{
 		GUI_Function();
 	}
 
 	drawDisplayList();
-	SDL_SetRenderDrawColor(Renderer::Instance()->getRenderer(), 255, 255, 255, 255);
+	SDL_SetRenderDrawColor(Renderer::Instance()->getRenderer(), 255, 255, 0, 255);
 }
 
-void PlayScene::update()
+void Fleeing::update()
 {
 	updateDisplayList();
-
-	CollisionManager::AABBCheck(m_pSpaceShip, m_pObstacle);
-	if (CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position, m_pSpaceShip->getTransform()->position + m_pSpaceShip->getOrientation() * 100.0f,
-		m_pObstacle->getTransform()->position - glm::vec2(m_pObstacle->getWidth() * 0.5, m_pObstacle->getHeight() * 0.5), m_pObstacle->getWidth(), m_pObstacle->getHeight()))
-	{
-		std::cout << "Collision with Line!" << std::endl;
-		m_pSpaceShip->changeDirection();
-	}
-	
-	
 }
 
-void PlayScene::clean()
+void Fleeing::clean()
 {
 	removeAllChildren();
 }
 
-void PlayScene::handleEvents()
+void Fleeing::handleEvents()
 {
 	EventManager::Instance().update();
 
@@ -56,6 +46,10 @@ void PlayScene::handleEvents()
 		TheGame::Instance()->quit();
 	}
 
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_1))
+	{
+		TheGame::Instance()->changeSceneState(PLAY_SCENE);
+	}
 	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_2))
 	{
 		TheGame::Instance()->changeSceneState(ARRIVAL);
@@ -64,76 +58,68 @@ void PlayScene::handleEvents()
 	{
 		TheGame::Instance()->changeSceneState(SEEkING);
 	}
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_4))
-	{
-		TheGame::Instance()->changeSceneState(FLEEING);
-	}
-
-	
 }
 
-void PlayScene::start()
+void Fleeing::start()
 {
 	// Set GUI Title
 	m_guiTitle = "Play Scene";
 
 	m_pTarget = new Target();
-	m_pTarget->getTransform()->position = glm::vec2(700.0f, 600.0f);
+	m_pTarget->getTransform()->position = glm::vec2(400.0f, 300.0f);
 	addChild(m_pTarget);
 
-	m_pObstacle = new Obstacle();
-	m_pObstacle->getTransform()->position = glm::vec2(500.0f, 300.0f);
-	addChild(m_pObstacle);
+
 
 	// instantiating spaceship
 	m_pSpaceShip = new SpaceShip();
-	m_pSpaceShip->getTransform()->position = glm::vec2(100.0f,100.0f);
+	m_pSpaceShip->getTransform()->position = glm::vec2(100.0f, 100.0f);
 	m_pSpaceShip->setEnabled(true);
 	m_pSpaceShip->setDestination(m_pTarget->getTransform()->position);
 	addChild(m_pSpaceShip);
 }
 
-void PlayScene::GUI_Function() const
+void Fleeing::GUI_Function() const
 {
 	// Always open with a NewFrame
 	ImGui::NewFrame();
 
 	// See examples by uncommenting the following - also look at imgui_demo.cpp in the IMGUI filter
 	//ImGui::ShowDemoWindow();
-	
+
 	ImGui::Begin("GAME3001 - Lab 2", NULL, ImGuiWindowFlags_AlwaysAutoResize | ImGuiWindowFlags_MenuBar);
 
 	static float speed = 10.0f;
-	if(ImGui::SliderFloat("MaxSpeed", &speed, 0.0f, 100.0f))
+	if (ImGui::SliderFloat("MaxSpeed", &speed, 0.0f, 100.0f))
 	{
 		m_pSpaceShip->setMaxSpeed(speed);
 	}
 
 	static float acceleration_rate = 2.0f;
-	if(ImGui::SliderFloat("Acceleration Rate", &acceleration_rate, 0.0f, 50.0f))
+	if (ImGui::SliderFloat("Acceleration Rate", &acceleration_rate, 0.0f, 50.0f))
 	{
 		m_pSpaceShip->setAccelerationRate(acceleration_rate);
 	}
 
 	static float angleInRadians = m_pSpaceShip->getRotation();
-	if(ImGui::SliderAngle("Orientation Angle", &angleInRadians))
+	if (ImGui::SliderAngle("Orientation Angle", &angleInRadians))
 	{
 		m_pSpaceShip->setRotation(angleInRadians * Util::Rad2Deg);
 	}
 
 	static float turn_rate = 5.0f;
-	if(ImGui::SliderFloat("Turn Rate", &turn_rate, 0.0f, 20.0f))
+	if (ImGui::SliderFloat("Turn Rate", &turn_rate, 0.0f, 20.0f))
 	{
 		m_pSpaceShip->setTurnRate(turn_rate);
 	}
-	
-	if(ImGui::Button("Start"))
+
+	if (ImGui::Button("Start"))
 	{
 		m_pSpaceShip->setEnabled(true);
 	}
 
 	ImGui::SameLine();
-	
+
 	if (ImGui::Button("Reset"))
 	{
 		m_pSpaceShip->getTransform()->position = glm::vec2(100.0f, 100.0f);
@@ -148,8 +134,8 @@ void PlayScene::GUI_Function() const
 
 	ImGui::Separator();
 
-	static float targetPosition[2] = { m_pTarget->getTransform()->position.x, m_pTarget->getTransform()->position.y};
-	if(ImGui::SliderFloat2("Target", targetPosition, 0.0f, 800.0f))
+	static float targetPosition[2] = { m_pTarget->getTransform()->position.x, m_pTarget->getTransform()->position.y };
+	if (ImGui::SliderFloat2("Target", targetPosition, 0.0f, 800.0f))
 	{
 		m_pTarget->getTransform()->position = glm::vec2(targetPosition[0], targetPosition[1]);
 		m_pSpaceShip->setDestination(m_pTarget->getTransform()->position);

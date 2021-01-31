@@ -170,6 +170,18 @@ void Game::changeSceneState(const SceneState new_state)
 			m_currentScene = new Arrival();
 			std::cout << "Arrival scene activated" << std::endl;
 			break;
+		case SEEkING:
+			m_currentScene = new Seeking();
+			std::cout << "Seeking scene activated" << std::endl;
+			break;
+		case FLEEING:
+			m_currentScene = new Fleeing();
+			std::cout << "Fleeing scene activated" << std::endl;
+			break;
+		case BLANKING:
+			m_currentScene = new Blanking();
+			std::cout << "Blanking scene activated" << std::endl;
+			break;
 		case PLAY_SCENE:
 			m_currentScene = new PlayScene();
 			std::cout << "play scene activated" << std::endl;

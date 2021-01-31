@@ -18,6 +18,9 @@
 #include "PlayScene.h"
 #include "EndScene.h"
 #include "Arrival.h"
+#include "Seeking.h"
+#include "Fleeing.h"
+#include "Blanking.h"
 #include "Config.h"
 
 class Game

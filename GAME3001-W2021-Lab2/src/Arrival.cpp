@@ -29,7 +29,6 @@ void Arrival::draw()
 void Arrival::update()
 {
 	updateDisplayList();
-	m_pSpaceShip->m_ArrivalMove();
 
 }
 
@@ -40,6 +39,7 @@ void Arrival::clean()
 
 void Arrival::handleEvents()
 {
+	m_pSpaceShip->m_ArrivalMove();
 	EventManager::Instance().update();
 	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_ESCAPE))
 	{
@@ -48,12 +48,16 @@ void Arrival::handleEvents()
 
 	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_1))
 	{
-		TheGame::Instance()->changeSceneState(START_SCENE);
+		TheGame::Instance()->changeSceneState(PLAY_SCENE);
 	}
-
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_P))
+	
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_3))
 	{
-		TheGame::Instance()->changeSceneState(END_SCENE);
+		TheGame::Instance()->changeSceneState(SEEkING);
+	}
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_4))
+	{
+		TheGame::Instance()->changeSceneState(FLEEING);
 	}
 
 
