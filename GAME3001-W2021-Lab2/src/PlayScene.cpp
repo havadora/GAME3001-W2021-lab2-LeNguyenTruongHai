@@ -65,15 +65,15 @@ void PlayScene::handleEvents()
 		TheGame::Instance()->quit();
 	}
 
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_2))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_3))
 	{
 		TheGame::Instance()->changeSceneState(ARRIVAL);
 	}
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_3))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_1))
 	{
 		TheGame::Instance()->changeSceneState(SEEkING);
 	}
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_4))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_2))
 	{
 		TheGame::Instance()->changeSceneState(FLEEING);
 	}
