@@ -58,6 +58,10 @@ void Blanking::handleEvents()
 
 void Blanking::start()
 {
+	SoundManager::Instance().load("../Assets/audio/BGsoundtrack.mp3", "Tom&Jerry", SOUND_MUSIC);
+	SoundManager::Instance().setMusicVolume(2);
+	SoundManager::Instance().playMusic("Tom&Jerry", -1);
+
 	const SDL_Color blue = { 0, 0, 255, 255 };
 	const SDL_Color red = { 255, 0, 100, 100 };
 	m_pAvoid = new Label("Press 4: Avoidence", "Consolas", 20, blue, glm::vec2(700.0f, 40.0f));
