@@ -158,7 +158,7 @@ void SpaceShip::turnRight()
 	m_rotationAngle += m_turnRate;
 	if (m_rotationAngle >= 360)
 	{
-		m_rotationAngle -= 360.0f;
+		m_rotationAngle -= 90.0f;
 	}
 	changeDirection();
 	moveForward();
@@ -173,7 +173,7 @@ void SpaceShip::turnLeft()
 	m_rotationAngle -= m_turnRate;
 	if (m_rotationAngle < 0)
 	{
-		m_rotationAngle += 360.0f;
+		m_rotationAngle += 90.0f;
 	}
 	changeDirection();
 	moveForward();

@@ -68,5 +68,12 @@ void Blanking::start()
 	m_pArrival->setParent(this);
 	addChild(m_pArrival);
 
+	m_pSeeking = new Label("Press 2: Seeking", "Consolas", 20, blue, glm::vec2(500.0f, 40.0f));
+	m_pSeeking->setParent(this);
+	addChild(m_pSeeking);
+
+	m_pFleeing = new Label("Press 2: Fleeing", "Consolas", 20, red, glm::vec2(700.0f, 40.0f));
+	m_pFleeing->setParent(this);
+	addChild(m_pFleeing);
 
 }
