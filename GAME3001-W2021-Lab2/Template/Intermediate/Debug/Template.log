@@ -1,0 +1,102 @@
+﻿  Arrival.cpp
+  Blanking.cpp
+  EndScene.cpp
+  EventManager.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\EventManager.cpp(119,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\EventManager.cpp(178,37): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\EventManager.cpp(179,37): warning C4244: '=': conversion from 'Sint32' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Fleeing.cpp
+  PlayScene.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\PlayScene.cpp(36,164): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\PlayScene.cpp(36,138): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Seeking.cpp
+  SpaceShip.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SpaceShip.cpp(12,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SpaceShip.cpp(13,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SpaceShip.cpp(33,55): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SpaceShip.cpp(33,27): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  StartScene.cpp
+  TextureManager.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(137,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(137,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(138,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(138,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(180,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(180,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(181,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(181,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(197,34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(197,26): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(225,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(225,26): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(232,32): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(260,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(260,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(261,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(261,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(290,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(290,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(291,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(291,21): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(310,11): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\TextureManager.cpp(311,11): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  main.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\main.cpp(9,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  ship.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(12,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(13,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(36,46): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(36,43): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(148,35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(148,22): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  Generating Code...
+  Game.cpp
+  Template.vcxproj -> C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\bin\Debug\Template.exe

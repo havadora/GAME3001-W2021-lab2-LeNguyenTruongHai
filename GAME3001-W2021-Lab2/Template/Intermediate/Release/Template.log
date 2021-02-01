@@ -1,0 +1,693 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  imgui_sdl.cpp
+  Button.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Button.cpp(22,15): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Button.cpp(23,16): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Button.cpp(38,46): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Button.cpp(38,43): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  CollisionManager.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(9,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(9,21): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(10,28): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(10,21): warning C4244: 'initializing': conversion from 'T' to 'const int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(20,72): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(20,24): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(57,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(57,22): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(58,43): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(58,23): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(59,41): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(59,22): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(60,43): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(60,23): warning C4244: 'initializing': conversion from 'int' to 'const float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(178,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(187,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(187,25): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(189,38): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(189,26): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(192,60): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(192,50): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(218,19): warning C4244: 'return': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(225,35): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(225,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(228,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(230,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(307,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(307,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(308,38): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\CollisionManager.cpp(308,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  Obstacle.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Obstacle.cpp(12,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Obstacle.cpp(13,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Obstacle.cpp(29,55): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Obstacle.cpp(29,27): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SpaceShip.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  Sprite.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+  UIControl.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\UIControl.cpp(33,101): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\UIControl.cpp(33,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DisplayObject.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+  EndScene.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\string(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  FontManager.cpp
+  Game.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  GameController.cpp
+  GameObject.cpp
+  Label.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(15,15): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(16,16): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(30,52): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(30,49): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(52,15): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(53,16): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(71,15): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Label.cpp(72,16): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  PlayScene.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\string(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  main.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  Compiling...
+  Plane.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Plane.cpp(40,6): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Plane.cpp(40,3): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Player.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(42,7): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(42,4): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(46,7): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(46,4): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(50,7): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(50,4): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(54,7): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(54,4): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(58,7): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Player.cpp(58,4): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Renderer.cpp
+  Scene.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\string(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.cpp(16,72): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\algorithm(20): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.cpp(16,80): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.cpp(20,5): error C2065: 'order_index': undeclared identifier
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.cpp(22,11): error C2065: 'order_index': undeclared identifier
+  ship.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(12,15): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(13,16): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(37,46): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(37,43): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(149,35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\ship.cpp(149,22): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  SoundManager.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SoundManager.cpp(146,27): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SoundManager.cpp(146,20): warning C4244: 'initializing': conversion from '_Ty' to 'const int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SoundManager.cpp(148,28): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\SoundManager.cpp(148,21): warning C4244: 'initializing': conversion from '_Ty' to 'const int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  EventManager.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\string(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  SpriteSheet.cpp
+  StartScene.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\string(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  Target.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Target.cpp(13,15): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Target.cpp(14,16): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Target.cpp(34,48): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Target.cpp(34,45): warning C4244: 'argument': conversion from 'const T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  TextureManager.cpp
+  The contents of <optional> are available only with C++17 or later.
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,69): error C2039: 'optional': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\unordered_map(24): message : see declaration of 'std'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Scene.h(24,77): error C2061: syntax error: identifier 'optional'
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Game.h(20,10): fatal error C1083: Cannot open include file: 'Arrival.h': No such file or directory
+  Util.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(266,15): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(267,15): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(283,16): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(315,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(316,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(317,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(318,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(323,59): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(323,52): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(323,45): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(323,36): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(329,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(330,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(331,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(332,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(335,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(336,24): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(349,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(350,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(351,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(352,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(357,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(371,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(371,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(372,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(372,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(373,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(373,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(374,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(374,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(378,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(378,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(379,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(379,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(380,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(380,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(381,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(381,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(385,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(385,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(386,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(386,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(387,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(387,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(388,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(388,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(392,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(392,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(393,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(393,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(394,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(394,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(395,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(395,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(399,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(399,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(400,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(400,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(401,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(401,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(402,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(402,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(403,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(403,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(404,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(404,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(405,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(405,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(406,57): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(406,43): warning C4244: 'argument': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(433,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(434,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(439,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(449,22): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\src\Util.cpp(458,19): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Arrival.cpp
+C:\Users\Admin\Desktop\GAME3001-W2021-Lab\GAME3001-W2021-lab2-LeNguyenTruongHai\GAME3001-W2021-Lab2\Template\Arrival.h(5,10): fatal error C1083: Cannot open include file: 'Scene.h': No such file or directory
