@@ -31,6 +31,7 @@ public:
 	void setAccelerationRate(float rate);
 	void turnLeft();
 	void changeDirection();
+	void moveBack();
 private:
 
 	glm::vec2 m_destination;

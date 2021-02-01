@@ -171,3 +171,7 @@ void SpaceShip::changeDirection()
 
 	glm::vec2 size = TextureManager::Instance()->getTextureSize("spaceship");
 }
+void SpaceShip::moveBack()
+{
+	getRigidBody()->velocity = m_targetDirection * -m_maxSpeed;
+}
