@@ -46,16 +46,16 @@ void Arrival::handleEvents()
 		TheGame::Instance()->quit();
 	}
 
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_1))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_4))
 	{
 		TheGame::Instance()->changeSceneState(PLAY_SCENE);
 	}
 	
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_3))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_1))
 	{
 		TheGame::Instance()->changeSceneState(SEEkING);
 	}
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_4))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_2))
 	{
 		TheGame::Instance()->changeSceneState(FLEEING);
 	}
@@ -65,8 +65,13 @@ void Arrival::handleEvents()
 
 void Arrival::start()
 {
+	
 	// Set GUI Title
 	m_guiTitle = "Play Scene";
+	const SDL_Color blue = { 0, 0, 0, 255 };
+	m_pLabel = new Label("Arrival", "Consolas", 20, blue, glm::vec2(400.0f, 40.0f));
+	m_pLabel->setParent(this);
+	addChild(m_pLabel);
 
 	m_pTarget = new Target();
 	m_pTarget->getTransform()->position = glm::vec2(700.0f, 500.0f);

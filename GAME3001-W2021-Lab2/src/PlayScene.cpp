@@ -83,6 +83,10 @@ void PlayScene::handleEvents()
 
 void PlayScene::start()
 {
+	const SDL_Color blue = { 0, 0, 0, 255 };
+	m_pLabel = new Label("Avoidence", "Consolas", 20, blue, glm::vec2(400.0f, 40.0f));
+	m_pLabel->setParent(this);
+	addChild(m_pLabel);
 	// Set GUI Title
 	m_guiTitle = "Play Scene";
 

@@ -68,8 +68,14 @@ void Fleeing::handleEvents()
 
 void Fleeing::start()
 {
+	
 	// Set GUI Title
 	m_guiTitle = "Play Scene";
+
+	const SDL_Color blue = { 0, 0, 0, 255 };
+	m_pLabel = new Label("Fleeing", "Consolas", 20, blue, glm::vec2(400.0f, 40.0f));
+	m_pLabel->setParent(this);
+	addChild(m_pLabel);
 
 	m_pTarget = new Target();
 	m_pTarget->getTransform()->position = glm::vec2(400.0f, 300.0f);

@@ -54,7 +54,7 @@ void Seeking::handleEvents()
 	{
 		TheGame::Instance()->changeSceneState(ARRIVAL);
 	}
-	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_1))
+	if (EventManager::Instance().isKeyDown(SDL_SCANCODE_2))
 	{
 		TheGame::Instance()->changeSceneState(FLEEING);
 	}
@@ -62,8 +62,14 @@ void Seeking::handleEvents()
 
 void Seeking::start()
 {
+	
 	// Set GUI Title
 	m_guiTitle = "Play Scene";
+	const SDL_Color blue = { 0, 0, 0, 255 };
+	m_pLabel = new Label("Seeking", "Consolas", 20, blue, glm::vec2(400.0f, 40.0f));
+	m_pLabel->setParent(this);
+	addChild(m_pLabel);
+
 
 	m_pTarget = new Target();
 	m_pTarget->getTransform()->position = glm::vec2(400.0f, 300.0f);

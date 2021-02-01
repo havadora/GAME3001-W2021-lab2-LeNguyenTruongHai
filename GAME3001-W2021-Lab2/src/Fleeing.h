@@ -29,7 +29,7 @@ private:
 	std::string m_guiTitle;
 
 	glm::vec2 m_mousePosition;
-
+	Label* m_pLabel;
 	SpaceShip* m_pSpaceShip;
 	Target* m_pTarget;
 
