@@ -17,7 +17,7 @@ SpaceShip::SpaceShip()
 	getRigidBody()->acceleration = glm::vec2(0.0f, 0.0f);
 	getRigidBody()->isColliding = false;
 	setType(SPACE_SHIP);
-	setMaxSpeed(10.0f);
+	setMaxSpeed(5.0f);
 	setOrientation(glm::vec2(0.0f, -1.0f));
 	setRotation(0.0f);
 	setAccelerationRate(5.0f);
@@ -153,7 +153,7 @@ void SpaceShip::m_ArrivalMove()
 
 	getTransform()->position += getRigidBody()->velocity;
 }
-void SpaceShip::turnLeft()
+void SpaceShip::turnRight()
 {
 	m_rotationAngle += m_turnRate;
 	if (m_rotationAngle >= 360)
@@ -161,8 +161,24 @@ void SpaceShip::turnLeft()
 		m_rotationAngle -= 360.0f;
 	}
 	changeDirection();
+	moveForward();
+}
+void SpaceShip::moveForward()
+{
+	getRigidBody()->velocity = m_orientation * m_maxSpeed;
 }
 
+void SpaceShip::turnLeft()
+{
+	m_rotationAngle -= m_turnRate;
+	if (m_rotationAngle < 0)
+	{
+		m_rotationAngle += 360.0f;
+	}
+	changeDirection();
+	moveForward();
+
+}
 void SpaceShip::changeDirection()
 {
 	const auto x = cos(m_rotationAngle * Util::Deg2Rad);

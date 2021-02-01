@@ -29,9 +29,12 @@ public:
 	void setTurnRate(float rate);
 	float getAccelerationRate() const;
 	void setAccelerationRate(float rate);
+	void turnRight();
 	void turnLeft();
 	void changeDirection();
 	void moveBack();
+	void moveForward();
+
 private:
 
 	glm::vec2 m_destination;

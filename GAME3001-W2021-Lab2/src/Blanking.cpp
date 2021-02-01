@@ -59,12 +59,14 @@ void Blanking::handleEvents()
 void Blanking::start()
 {
 	const SDL_Color blue = { 0, 0, 255, 255 };
-	const SDL_Color red = { 0, 0, 100, 100 };
+	const SDL_Color red = { 255, 0, 100, 100 };
 	m_pAvoid = new Label("Press 1: Avoidence", "Consolas", 20, blue, glm::vec2(100.0f, 40.0f));
 	m_pAvoid->setParent(this);
 	addChild(m_pAvoid);
 
-	m_pStudentID = new Label("101268689", "Consolas", 60, red, glm::vec2(100.0f, 70.0f));
-	m_pStudentID->setParent(this);
-	addChild(m_pStudentID);
+	m_pArrival = new Label("Press 2: Arrival", "Consolas", 20, red, glm::vec2(300.0f, 40.0f));
+	m_pArrival->setParent(this);
+	addChild(m_pArrival);
+
+
 }

@@ -23,7 +23,9 @@ public:
 private:
 	Label* m_pAvoid{};
 	Label* m_pInstructionsLabel{};
-	Label* m_pStudentID{};
+	Label* m_pArrival{};
+	Label* m_pSeeking{};
+	Label* m_pFleeing{};
 	Ship* m_pShip{};
 
 	Button* m_pStartButton;

@@ -35,8 +35,17 @@ void PlayScene::update()
 	if (CollisionManager::lineRectCheck(m_pSpaceShip->getTransform()->position, m_pSpaceShip->getTransform()->position + m_pSpaceShip->getOrientation() * 100.0f,
 		m_pObstacle->getTransform()->position - glm::vec2(m_pObstacle->getWidth() * 0.5, m_pObstacle->getHeight() * 0.5), m_pObstacle->getWidth(), m_pObstacle->getHeight()))
 	{
-		std::cout << "Collision with Line!" << std::endl;
-		m_pSpaceShip->turnLeft();
+		if (m_pSpaceShip->getTransform()->position.x < 400 || m_pSpaceShip->getTransform()->position.y < 400)
+		{
+			std::cout << "Collision with Line!" << std::endl;
+			m_pSpaceShip->turnRight();
+		}
+		else if (m_pSpaceShip->getTransform()->position.x >= 400)
+		{
+			m_pSpaceShip->turnLeft();
+		}
+
+
 	}
 	
 	

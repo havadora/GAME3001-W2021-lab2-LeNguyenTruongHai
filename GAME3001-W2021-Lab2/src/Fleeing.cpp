@@ -30,6 +30,11 @@ void Fleeing::draw()
 void Fleeing::update()
 {
 	updateDisplayList();
+	if (CollisionManager::AABBCheck(m_pSpaceShip, m_pTarget))
+	{
+		m_pSpaceShip->moveBack();
+	}
+
 }
 
 void Fleeing::clean()
